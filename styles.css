@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: ;
+}
+
+img {
+    height: 100px;
+    
+}
+
+.card-container {
+    display: flex;
+}
+
+.image-container {
+    background-image: url(/images/image-product-desktop.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
