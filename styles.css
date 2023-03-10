@@ -20,7 +20,6 @@ body {
 .card-container {
     display: flex;
     justify-content: center;
-    /* border: solid black 10px; */
     border-radius: 7.5px;
     overflow: hidden;
 }
@@ -36,6 +35,9 @@ body {
     height: 400px;
     width: 300px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .attribution {
@@ -47,3 +49,37 @@ body {
     color: hsl(228, 45%, 44%);
   }
 /* The code for placing .attribution at the bottom of the page,(technically at the bottom of its parent). */
+
+.perfume {
+    font-family: 'Montserrat', sans-serif;
+    align-self: safe;
+    width: 250px;
+}
+
+.essencetxt {
+    font-family: 'Fraunces', serif;
+    width: 250px;
+}
+
+.ad {
+    font-family: 'Montserrat', sans-serif;
+    width: 250px;
+}
+
+.price1 {
+    font-family: 'Fraunces', serif;
+    width: 250px;
+}
+
+.price2 {
+    font-family: 'Montserrat', sans-serif;
+    width: 250px;
+}
+
+button {
+    width: 250px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: hsl(158, 36%, 37%);
+
+}
