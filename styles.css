@@ -100,7 +100,9 @@ button {
     background-color: hsl(158, 36%, 37%);
     font-family: 'Montserrat', sans-serif;
     color: hsl(0, 0%, 100%);
+    font-weight: bold;
 }
+
 button span {
     vertical-align: middle;
     margin: 5px;
@@ -117,3 +119,38 @@ button:hover {
     width: 245px;
 }
 
+@media screen and (max-width: 380px){
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .image-container {
+        background-image: url(/images/image-product-mobile.jpg);
+        height: 200px;
+        width: 350px
+    }
+
+    .text-container {
+        width: 350px;
+    }
+
+    .attribution {
+        display: none;
+    }
+
+    .text-container div {
+        margin: 10px;
+        width: 295px;
+    }
+
+    .text-container h1 {
+        width: 295px;
+    }
+
+    button {
+        width: 295px;
+    }
+
+}
